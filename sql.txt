@@ -5,7 +5,7 @@ UserName nvarchar(50) PRIMARY KEY,
 Password nvarchar(50) NOT NULL,
 QQ nvarchar(12),
 Email nvarchar(50),
-Type nchar(10) NOT NULL DEFAULT '∆’Õ®”√ªß',
+Type nchar(10) NOT NULL DEFAULT 'ÊôÆÈÄöÁî®Êà∑',
 UserImg nvarchar(250));
 
 use works;
@@ -17,7 +17,7 @@ EndTime datetime(6) NOT NULL,
 ActivityPicture nvarchar(250) NOT NULL,
 ActivityIntroduction nvarchar(8000),
 Summary nvarchar(250),
-ActivityVerify nchar(10) NOT NULL DEFAULT '¥˝…Û∫À',
+ActivityVerify nchar(10) NOT NULL DEFAULT 'ÂæÖÂÆ°Ê†∏',
 ActivityStatus nchar(10),
 UserName nvarchar(50) NOT NULL);
 
@@ -30,10 +30,10 @@ WorkName nvarchar(50) NOT NULL,
 WorkPicture nvarchar(250) NOT NULL,
 UploadTime datetime(6) NOT NULL,
 WorkIntroduction nvarchar(8000),
-WorkVerify nchar(10) NOT NULL DEFAULT '¥˝…Û∫À',
+WorkVerify nchar(10) NOT NULL DEFAULT 'ÂæÖÂÆ°Ê†∏',
 UserName nvarchar(50) NOT NULL,
 ActivityName nvarchar(125),
-Recommend nchar(2) NOT NULL DEFAULT '∑Ò',
+Recommend nchar(2) NOT NULL DEFAULT 'Âê¶',
 RecommendTime datetime(6)
 );
 
